@@ -1,0 +1,94 @@
+body {
+
+    text-align: center;
+    background-image: linear-gradient(to bottom left, blue, purple)
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Hanalei;
+    text-shadow: 1px 1px
+}
+
+hr {
+    color: red;
+    background-color: blue;
+    border-color: aqua;
+    column-rule-color: aqua;
+
+
+}
+
+h1:hover {
+    color: aqua;
+}
+
+img {
+    border-radius: 100%;
+    
+    transition-duration: 0.9s; 
+        
+}
+
+.p1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: grabbing;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.link:hover {
+    background-color: red;
+}
+
+.link {
+    border-radius: 70%;
+}
+iframe {
+     width: 1300;
+     height: 1300
+}
+
+button {
+     outline-color: aqua;
+     border: 50px;
+     height: 100;
+     
+     width: 100;
+     border-radius: 20%;
+     outline-color: aqua;
+     border-color: aqua;
+     cursor: grabbing;
+     transition-duration: 0.8s;
+          
+          
+          
+     
+}
+button:hover {
+     background-color:crimson;
+     height: 150px;
+     width: 150px;
+     transform: rotateY(360deg)
+     
+}
+html{
+     scroll-behavior: smooth;
+}
+img:hover {
+     transform: scaleX(50deg);
+}
